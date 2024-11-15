@@ -1,0 +1,26 @@
+{
+  "architectures": [
+    "SkyerForCausalLM"
+  ],
+  "auto_map": {
+    "AutoConfig": "model.SkyerConfig",
+    "AutoModelForCausalLM": "model.SkyerForCausalLM"
+  },
+  "bos_token_id": 2,
+  "cache_max_batch_size": 1,
+  "cache_max_seq_len": 128,
+  "eos_token_id": 3,
+  "intermediate_size": 1536,
+  "hidden_size": 2048,
+  "max_pos_len": 4096,
+  "model_type": "skyer",
+  "num_key_value_heads": 12,
+  "num_attention_heads": 24,
+  "num_hidden_layers": 20,
+  "pad_token_id": 0,
+  "torch_dtype": "float32",
+  "transformers_version": "4.45.0.dev0",
+  "vocab_size": 30000,
+  "use_cache": true,
+  "head_dim":64
+}
